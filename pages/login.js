@@ -8,8 +8,8 @@ exports.LoginPage =class LoginPage{
     }
 
     async gotoLoginPage(){
-          await this.page.goto('https://the-internet.herokuapp.com/login', {
-    waitUntil: 'domcontentloaded',
+        await this.page.goto('https://the-internet.herokuapp.com/login', {
+        waitUntil: 'domcontentloaded',
     });
     }
 
